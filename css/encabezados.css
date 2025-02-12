@@ -1,0 +1,14 @@
+/*Documento css*/
+
+body {background-color: rgb(215, 193, 226);}
+
+h1,h3 {color: darkslateblue;font-size: 32px;
+    ;line-height: 140%; 
+    ;text-decoration: underline; 
+    ;text-align: center;}
+
+h2,h4 {color: chartreuse;}
+
+h5,h6 {color: aliceblue;}
+
+p{color: aquamarine;}
