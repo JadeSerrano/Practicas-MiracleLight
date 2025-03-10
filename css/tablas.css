@@ -1,0 +1,24 @@
+/*DOCUMENTO CSS*/
+
+* { font-size: 0px;
+    padding: 0px;}
+
+body { font-family: "Playfair Display", serif;}
+
+h1 { font-family: "Playfair Display", serif; 
+      text-align: center;}
+   
+.cabecera { margin-bottom: 32px;}
+
+.tablas { margin-bottom: 32px;
+         height: 1px;
+         padding: 16px 0px ;
+         background-color: darksalmon;}
+
+div.tablas {background-color: antiquewhite;
+            margin-bottom: 38px;}         
+        
+.tablas table { margin: auto }         
+
+
+.pie {background-color: azure;}
