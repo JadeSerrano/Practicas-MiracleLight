@@ -1,0 +1,31 @@
+/*DOCUMENTO CSS*/
+* {margin: 0px;
+ padding: 0px }
+
+body {background-color: cornsilk;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h1 { text-align: center; } 
+
+h2 { padding-bottom: 8px; }
+
+.cabecera { min-height: 80px; 
+             border-bottom: 2px solid rgb(106, 191, 49);
+              }
+
+.cuerpo {width: 100%; }
+
+.container p { font-size: 1.3em; 
+                padding-bottom: 16px; }
+
+.container { width: 80%; 
+             padding-top: 80px;
+             margin: 0px auto;
+             display: flex; }
+
+
+
+.items { width: 50%; 
+         padding: 16px;
+         box-sizing: border-box; }
+        
