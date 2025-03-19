@@ -29,3 +29,28 @@ h2 { padding-bottom: 8px; }
          padding: 16px;
          box-sizing: border-box; }
         
+
+.items input, textarea { width: 100%;
+                         padding: 8px; 
+                         margin-bottom: 8px; } 
+
+textarea { max-width: 100%; 
+           min-width: 100%; 
+           min-height: 120px; 
+           max-height: 120px;
+        }                         
+
+.items a { display: block;
+            width: 120px;
+            padding: 16px;
+            border-radius: 8px;
+            background-color: rgb(181, 231, 131);
+            text-align: center;
+            color: darkgreen; 
+            text-decoration: none; }
+
+.items a:hover { background-color: rgb(109, 184, 84);}
+.items a:active { background: rgb(14,97,4);
+    background: linear-gradient(90deg, rgba(14,97,4,1) 0%, rgba(183,217,118,1) 50%, rgba(236,255,0,1) 100%); }
+
+#btn { width: 120px; }                  
