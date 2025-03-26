@@ -2,13 +2,15 @@
 *{ margin: 0px
   padding 0px}
 
-  body { background-color: blanchedalmond; 
+  body { background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
   h1 {text-align: center;
-      font-size: 32px; }
+      font-size: 32px; 
+      background-color: rgb(193, 36, 36);}
 
-  h2 {padding: 8px 0px; }
+  h2 {padding: 10px 70px; 
+       background-color: rgb(209, 56, 39);}
 
 .cabecera {margin-bottom: 16px;
             margin-top: 16px; }
@@ -32,3 +34,16 @@
 
 .videos iframe, .videos video {width: 100%;
                                height: 300px;}
+
+.pie {background-color: rgb(209, 56, 39);
+      padding: 7px 0px; 
+      text-align: center; }
+
+@media only screen and ( min-width: 992px) {
+
+.videos {max-width: 1110px;}
+
+.videos div { padding: 20px 20px;
+              background-color: black;}
+
+}

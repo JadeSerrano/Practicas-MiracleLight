@@ -10,13 +10,12 @@ h1 { text-align: center; }
 h2 { padding-bottom: 8px; }
 
 .cabecera { min-height: 80px; 
-             border-bottom: 2px solid rgb(106, 191, 49);
-              }
+            border-bottom: 2px solid rgb(106, 191, 49); }
 
 .cuerpo {width: 100%; }
 
 .container p { font-size: 1.3em; 
-                padding-bottom: 16px; }
+               padding-bottom: 16px; }
 
 .container { width: 80%; 
              padding-top: 80px;
@@ -37,8 +36,7 @@ h2 { padding-bottom: 8px; }
 textarea { max-width: 100%; 
            min-width: 100%; 
            min-height: 120px; 
-           max-height: 120px;
-        }                         
+           max-height: 120px; }                         
 
 .items a { display: block;
             width: 120px;
@@ -54,3 +52,25 @@ textarea { max-width: 100%;
     background: linear-gradient(90deg, rgba(14,97,4,1) 0%, rgba(183,217,118,1) 50%, rgba(236,255,0,1) 100%); }
 
 #btn { width: 120px; }                  
+
+.items input::placeholder, textarea::placeholder {color: rgb(109, 184, 84);}
+
+.container::before {content: "";
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    background: url(/img/send.svg);
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;}
+
+.container::after {content: "";
+                   display: block;
+                   width: 60px;
+                   height: 60px;
+                   background: url(/img/send.svg);
+                   background-repeat: no-repeat;
+                   background-size: 100% 100%;
+                   position: relative;
+                   left: 20px;}
+
+div.container::after {position: relative;}
