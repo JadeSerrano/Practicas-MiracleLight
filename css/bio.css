@@ -1,4 +1,55 @@
-/*DOCUMENTO CSS*/
+/* DOCUMENTO CSS */
 
-h1{color: rgb(56, 56, 213);
-text-align: center;}
+body {
+    font-family: sans-serif; /* Fuente simple y común */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Un gris muy claro */
+    color: #333; /* Texto oscuro */
+}
+
+.class { /* Encabezado */
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: white; /* Blanco para el título principal */
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #007bff; /* Azul para los subtítulos */
+    text-align: center;
+    margin-top: 25px;
+}
+
+main {
+    max-width: 800px; /* Ancho máximo para el contenido */
+    margin: 20px auto; /* Centra el contenido */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+iframe {
+    display: block; /* Para centrar el video */
+    margin: 20px auto;
+    max-width: 100%; /* Asegura que el video se adapte */
+}
+
+.pie { /* Pie de página */
+    background-color: #333; /* Gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

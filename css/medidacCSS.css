@@ -1,0 +1,34 @@
+
+/*DOCUMENTS*/
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #bdddff;
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #b0d6ff; 
+    color: white;
+}
+
+tr:nth-child(even) {    background-color: #f9f9f9; }
